@@ -1,0 +1,11 @@
+Script started on 2023-07-31 12:09:45-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="125" LINES="33"]
+[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ g++ server.cpp -o server
+[?2004l[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ ./server
+[?2004lServer Application started
+Listening for commands...
+"GET" command received!
+File does not exist in directory: NotinDirec... Send error to client.
+[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-31 12:11:06-05:00 [COMMAND_EXIT_CODE="1"]

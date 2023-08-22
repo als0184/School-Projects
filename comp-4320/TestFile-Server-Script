@@ -1,0 +1,592 @@
+Script started on 2023-07-31 12:03:21-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="125" LINES="33"]
+[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ ./clientscheduler task.list RR 4make[Kcd ~/cs161/src/Project5./scheduler task.list RR 4SRTFFCFSmake[K./scheduler task.list FCFSRR 4SRTFmake[K./scheduler task.list SRTFmake[K./scheduler task.list SRTFmake[K./scheduler task.list SRTFmake[K./scheduler task.list SRTFmake[K./scheduler task.list SRTFmake[K[K[K[K[Kg++ server.cpp -o server
+[?2004l[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ ./server
+[?2004lServer Application started
+Listening for commands...
+"GET" command received!
+TestFile successfully opened!
+Sending Packet 0 to Client
+First 64 Bytes of Packet 0:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibu
+Sending Packet 1 to Client
+First 64 Bytes of Packet 1:
+ilisis tristique. Nunc in tortor auctor, pulvinar ante a, bibend
+Sending Packet 2 to Client
+First 64 Bytes of Packet 2:
+stique senectus et netus et malesuada fames ac turpis egestas. S
+Sending Packet 3 to Client
+First 64 Bytes of Packet 3:
+ Quisque nec massa at nunc lacinia convallis. Vivamus vehicula t
+Sending Packet 4 to Client
+First 64 Bytes of Packet 4:
+lis lobortis. Nunc congue ex nec nisl dictum, a laoreet felis fe
+Sending Packet 5 to Client
+First 64 Bytes of Packet 5:
+ finibus, justo turpis tristique tortor, non convallis nulla est
+Sending Packet 6 to Client
+First 64 Bytes of Packet 6:
+am eget diam suscipit, consequat est ac, varius risus. Sed vel v
+Sending Packet 7 to Client
+First 64 Bytes of Packet 7:
+. Quisque a sapien nec nunc varius pellentesque. Vestibulum cons
+Sending Packet 8 to Client
+First 64 Bytes of Packet 8:
+est id tempus pellentesque, eros velit cursus neque, vel feugiat
+Sending Packet 9 to Client
+First 64 Bytes of Packet 9:
+erat semper metus, at posuere ipsum lorem a erat. Aliquam conval
+Sending Packet 10 to Client
+First 64 Bytes of Packet 10:
+t ligula. Maecenas non iaculis tortor. In semper vehicula posuer
+Sending Packet 11 to Client
+First 64 Bytes of Packet 11:
+ctus ac ipsum aliquet, ut tincidunt ligula aliquet. Mauris at ni
+Sending Packet 12 to Client
+First 64 Bytes of Packet 12:
+ue risus. Quisque posuere dui in eros lacinia, sed lobortis erat
+Sending Packet 13 to Client
+First 64 Bytes of Packet 13:
+sis velit. Donec at nunc auctor, cursus nulla in, semper nisl. P
+Sending Packet 14 to Client
+First 64 Bytes of Packet 14:
+Sed eu nisi id tortor tristique efficitur. Suspendisse nec nisl 
+Sending Packet 15 to Client
+First 64 Bytes of Packet 15:
+ eros ac diam cursus efficitur. Curabitur fringilla eros at libe
+Sending Packet 16 to Client
+First 64 Bytes of Packet 16:
+ere, mauris tortor laoreet elit, a aliquam elit erat in risus. N
+Sending Packet 17 to Client
+First 64 Bytes of Packet 17:
+ metus finibus, sit amet tempus neque cursus. Proin mattis orci 
+Sending Packet 18 to Client
+First 64 Bytes of Packet 18:
+rat volutpat. Suspendisse potenti. Quisque in neque tincidunt, f
+Sending Packet 19 to Client
+First 64 Bytes of Packet 19:
+ consequat euismod. Nullam a neque volutpat, tincidunt mi a, ali
+Sending Packet 20 to Client
+First 64 Bytes of Packet 20:
+acinia. Morbi eget sollicitudin tortor. Sed fringilla, tellus qu
+Sending Packet 21 to Client
+First 64 Bytes of Packet 21:
+lit nec sem scelerisque volutpat in non magna. In hac habitasse 
+Sending Packet 22 to Client
+First 64 Bytes of Packet 22:
+uis enim eget risus maximus rutrum. Cras quis est sed arcu laore
+Sending Packet 23 to Client
+First 64 Bytes of Packet 23:
+tetur aliquam a non sem. Morbi a lacus sed mi iaculis dapibus a 
+Sending Packet 24 to Client
+First 64 Bytes of Packet 24:
+, vitae semper est fermentum a. Praesent sem velit, sollicitudin
+Sending Packet 25 to Client
+First 64 Bytes of Packet 25:
+pis. Fusce porttitor elit vel lacinia semper. Integer lacinia au
+Sending Packet 26 to Client
+First 64 Bytes of Packet 26:
+ugue consectetur, a cursus justo fermentum. In hac habitasse pla
+Sending Packet 27 to Client
+First 64 Bytes of Packet 27:
+ipsum non turpis vulputate, ut sollicitudin ex rhoncus. Cras pul
+Sending Packet 28 to Client
+First 64 Bytes of Packet 28:
+ lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing el
+Sending Packet 29 to Client
+First 64 Bytes of Packet 29:
+olutpat facilisis tristique. Nunc in tortor auctor, pulvinar ant
+Sending Packet 30 to Client
+First 64 Bytes of Packet 30:
+t morbi tristique senectus et netus et malesuada fames ac turpis
+Sending Packet 31 to Client
+First 64 Bytes of Packet 31:
+ convallis. Quisque nec massa at nunc lacinia convallis. Vivamus
+Sending Packet 32 to Client
+First 64 Bytes of Packet 32:
+incidunt felis lobortis. Nunc congue ex nec nisl dictum, a laore
+Sending Packet 33 to Client
+First 64 Bytes of Packet 33:
+ ac rhoncus finibus, justo turpis tristique tortor, non convalli
+Sending Packet 34 to Client
+First 64 Bytes of Packet 34:
+utpat. Nullam eget diam suscipit, consequat est ac, varius risus
+Sending Packet 35 to Client
+First 64 Bytes of Packet 35:
+lutpat quam. Quisque a sapien nec nunc varius pellentesque. Vest
+Sending Packet 36 to Client
+First 64 Bytes of Packet 36:
+s blandit, est id tempus pellentesque, eros velit cursus neque, 
+Sending Packet 37 to Client
+First 64 Bytes of Packet 37:
+tur, purus erat semper metus, at posuere ipsum lorem a erat. Ali
+Sending Packet 38 to Client
+First 64 Bytes of Packet 38:
+d id aliquet ligula. Maecenas non iaculis tortor. In semper vehi
+Sending Packet 39 to Client
+First 64 Bytes of Packet 39:
+s auctor lectus ac ipsum aliquet, ut tincidunt ligula aliquet. M
+Sending Packet 40 to Client
+First 64 Bytes of Packet 40:
+ pellentesque risus. Quisque posuere dui in eros lacinia, sed lo
+Sending Packet 41 to Client
+First 64 Bytes of Packet 41:
+quat facilisis velit. Donec at nunc auctor, cursus nulla in, sem
+Sending Packet 42 to Client
+First 64 Bytes of Packet 42:
+at varius. Sed eu nisi id tortor tristique efficitur. Suspendiss
+Sending Packet 43 to Client
+First 64 Bytes of Packet 43:
+entesque ac eros ac diam cursus efficitur. Curabitur fringilla e
+Sending Packet 44 to Client
+First 64 Bytes of Packet 44:
+hicula posuere, mauris tortor laoreet elit, a aliquam elit erat 
+Sending Packet 45 to Client
+First 64 Bytes of Packet 45:
+mus arcu ac metus finibus, sit amet tempus neque cursus. Proin m
+Sending Packet 46 to Client
+First 64 Bytes of Packet 46:
+
+
+Aliquam erat volutpat. Suspendisse potenti. Quisque in neque t
+Sending Packet 47 to Client
+First 64 Bytes of Packet 47:
+us ut massa consequat euismod. Nullam a neque volutpat, tincidun
+Sending Packet 48 to Client
+First 64 Bytes of Packet 48:
+c aliquam lacinia. Morbi eget sollicitudin tortor. Sed fringilla
+Sending Packet 49 to Client
+First 64 Bytes of Packet 49:
+ullam id velit nec sem scelerisque volutpat in non magna. In hac
+Sending Packet 50 to Client
+First 64 Bytes of Packet 50:
+. Quisque quis enim eget risus maximus rutrum. Cras quis est sed
+Sending Packet 51 to Client
+First 64 Bytes of Packet 51:
+urna consectetur aliquam a non sem. Morbi a lacus sed mi iaculis
+Sending Packet 52 to Client
+First 64 Bytes of Packet 52:
+lacus metus, vitae semper est fermentum a. Praesent sem velit, s
+Sending Packet 53 to Client
+First 64 Bytes of Packet 53:
+arcu et turpis. Fusce porttitor elit vel lacinia semper. Integer
+Sending Packet 54 to Client
+First 64 Bytes of Packet 54:
+ sit amet augue consectetur, a cursus justo fermentum. In hac ha
+Sending Packet 55 to Client
+First 64 Bytes of Packet 55:
+am rhoncus ipsum non turpis vulputate, ut sollicitudin ex rhoncu
+Sending Packet 56 to Client
+First 64 Bytes of Packet 56:
+etus mollis lacinia.
+
+Lorem ipsum dolor sit amet, consectetur ad
+Sending Packet 57 to Client
+First 64 Bytes of Packet 57:
+. Quisque volutpat facilisis tristique. Nunc in tortor auctor, p
+Sending Packet 58 to Client
+First 64 Bytes of Packet 58:
+que habitant morbi tristique senectus et netus et malesuada fame
+Sending Packet 59 to Client
+First 64 Bytes of Packet 59:
+o vulputate convallis. Quisque nec massa at nunc lacinia convall
+Sending Packet 60 to Client
+First 64 Bytes of Packet 60:
+as, vitae tincidunt felis lobortis. Nunc congue ex nec nisl dict
+Sending Packet 61 to Client
+First 64 Bytes of Packet 61:
+tor, libero ac rhoncus finibus, justo turpis tristique tortor, n
+Sending Packet 62 to Client
+First 64 Bytes of Packet 62:
+egestas volutpat. Nullam eget diam suscipit, consequat est ac, v
+Sending Packet 63 to Client
+First 64 Bytes of Packet 63:
+rcu sed, volutpat quam. Quisque a sapien nec nunc varius pellent
+Sending Packet 64 to Client
+First 64 Bytes of Packet 64:
+us.
+
+Vivamus blandit, est id tempus pellentesque, eros velit cur
+Sending Packet 65 to Client
+First 64 Bytes of Packet 65:
+us consectetur, purus erat semper metus, at posuere ipsum lorem 
+Sending Packet 66 to Client
+First 64 Bytes of Packet 66:
+ictumst. Sed id aliquet ligula. Maecenas non iaculis tortor. In 
+Sending Packet 67 to Client
+First 64 Bytes of Packet 67:
+pit. Vivamus auctor lectus ac ipsum aliquet, ut tincidunt ligula
+Sending Packet 68 to Client
+First 64 Bytes of Packet 68:
+ Mauris nec pellentesque risus. Quisque posuere dui in eros laci
+Sending Packet 69 to Client
+First 64 Bytes of Packet 69:
+a ac, consequat facilisis velit. Donec at nunc auctor, cursus nu
+Sending Packet 70 to Client
+First 64 Bytes of Packet 70:
+sto consequat varius. Sed eu nisi id tortor tristique efficitur.
+Sending Packet 71 to Client
+First 64 Bytes of Packet 71:
+umst.
+
+Pellentesque ac eros ac diam cursus efficitur. Curabitur 
+Sending Packet 72 to Client
+First 64 Bytes of Packet 72:
+etus non vehicula posuere, mauris tortor laoreet elit, a aliquam
+Sending Packet 73 to Client
+First 64 Bytes of Packet 73:
+ibulum maximus arcu ac metus finibus, sit amet tempus neque curs
+Sending Packet 74 to Client
+First 64 Bytes of Packet 74:
+endum nunc.
+
+Aliquam erat volutpat. Suspendisse potenti. Quisque
+Sending Packet 75 to Client
+First 64 Bytes of Packet 75:
+. Sed a metus ut massa consequat euismod. Nullam a neque volutpa
+Sending Packet 76 to Client
+First 64 Bytes of Packet 76:
+a turpis nec aliquam lacinia. Morbi eget sollicitudin tortor. Se
+Sending Packet 77 to Client
+First 64 Bytes of Packet 77:
+ feugiat. Nullam id velit nec sem scelerisque volutpat in non ma
+Sending Packet 78 to Client
+First 64 Bytes of Packet 78:
+est at nunc. Quisque quis enim eget risus maximus rutrum. Cras q
+Sending Packet 79 to Client
+First 64 Bytes of Packet 79:
+l velit ut urna consectetur aliquam a non sem. Morbi a lacus sed
+Sending Packet 80 to Client
+First 64 Bytes of Packet 80:
+onsectetur lacus metus, vitae semper est fermentum a. Praesent s
+Sending Packet 81 to Client
+First 64 Bytes of Packet 81:
+iat ligula arcu et turpis. Fusce porttitor elit vel lacinia semp
+Sending Packet 82 to Client
+First 64 Bytes of Packet 82:
+vallis diam sit amet augue consectetur, a cursus justo fermentum
+Sending Packet 83 to Client
+First 64 Bytes of Packet 83:
+uere. Aliquam rhoncus ipsum non turpis vulputate, ut sollicitudi
+Sending Packet 84 to Client
+First 64 Bytes of Packet 84:
+ nisl non metus mollis lacinia.
+
+Lorem ipsum dolor sit amet, con
+Sending Packet 85 to Client
+First 64 Bytes of Packet 85:
+rat dapibus. Quisque volutpat facilisis tristique. Nunc in torto
+Sending Packet 86 to Client
+First 64 Bytes of Packet 86:
+. Pellentesque habitant morbi tristique senectus et netus et mal
+Sending Packet 87 to Client
+First 64 Bytes of Packet 87:
+sl at libero vulputate convallis. Quisque nec massa at nunc laci
+Sending Packet 88 to Client
+First 64 Bytes of Packet 88:
+ibero egestas, vitae tincidunt felis lobortis. Nunc congue ex ne
+Sending Packet 89 to Client
+First 64 Bytes of Packet 89:
+. Nulla auctor, libero ac rhoncus finibus, justo turpis tristiqu
+Sending Packet 90 to Client
+First 64 Bytes of Packet 90:
+ci ut nunc egestas volutpat. Nullam eget diam suscipit, consequa
+Sending Packet 91 to Client
+First 64 Bytes of Packet 91:
+, finibus arcu sed, volutpat quam. Quisque a sapien nec nunc var
+Sending Packet 92 to Client
+First 64 Bytes of Packet 92:
+aliquam purus.
+
+Vivamus blandit, est id tempus pellentesque, ero
+Sending Packet 93 to Client
+First 64 Bytes of Packet 93:
+ quis rhoncus consectetur, purus erat semper metus, at posuere i
+Sending Packet 94 to Client
+First 64 Bytes of Packet 94:
+se platea dictumst. Sed id aliquet ligula. Maecenas non iaculis 
+Sending Packet 95 to Client
+First 64 Bytes of Packet 95:
+oreet suscipit. Vivamus auctor lectus ac ipsum aliquet, ut tinci
+Sending Packet 96 to Client
+First 64 Bytes of Packet 96:
+ a at enim. Mauris nec pellentesque risus. Quisque posuere dui i
+Sending Packet 97 to Client
+First 64 Bytes of Packet 97:
+din ac massa ac, consequat facilisis velit. Donec at nunc auctor
+Sending Packet 98 to Client
+First 64 Bytes of Packet 98:
+ augue a justo consequat varius. Sed eu nisi id tortor tristique
+Sending Packet 99 to Client
+First 64 Bytes of Packet 99:
+platea dictumst.
+
+Pellentesque ac eros ac diam cursus efficitur.
+Sending Packet 100 to Client
+First 64 Bytes of Packet 100:
+pulvinar, metus non vehicula posuere, mauris tortor laoreet elit
+Sending Packet 101 to Client
+First 64 Bytes of Packet 101:
+ elit. Vestibulum maximus arcu ac metus finibus, sit amet tempus
+Sending Packet 102 to Client
+First 64 Bytes of Packet 102:
+ante a, bibendum nunc.
+
+Aliquam erat volutpat. Suspendisse poten
+Sending Packet 103 to Client
+First 64 Bytes of Packet 103:
+pis egestas. Sed a metus ut massa consequat euismod. Nullam a ne
+Sending Packet 104 to Client
+First 64 Bytes of Packet 104:
+mus vehicula turpis nec aliquam lacinia. Morbi eget sollicitudin
+Sending Packet 105 to Client
+First 64 Bytes of Packet 105:
+oreet felis feugiat. Nullam id velit nec sem scelerisque volutpa
+Sending Packet 106 to Client
+First 64 Bytes of Packet 106:
+llis nulla est at nunc. Quisque quis enim eget risus maximus rut
+Sending Packet 107 to Client
+First 64 Bytes of Packet 107:
+sus. Sed vel velit ut urna consectetur aliquam a non sem. Morbi 
+Sending Packet 108 to Client
+First 64 Bytes of Packet 108:
+estibulum consectetur lacus metus, vitae semper est fermentum a.
+Sending Packet 109 to Client
+First 64 Bytes of Packet 109:
+e, vel feugiat ligula arcu et turpis. Fusce porttitor elit vel l
+Sending Packet 110 to Client
+First 64 Bytes of Packet 110:
+Aliquam convallis diam sit amet augue consectetur, a cursus just
+Sending Packet 111 to Client
+First 64 Bytes of Packet 111:
+ehicula posuere. Aliquam rhoncus ipsum non turpis vulputate, ut 
+Sending Packet 112 to Client
+First 64 Bytes of Packet 112:
+. Mauris at nisl non metus mollis lacinia.
+
+Lorem ipsum dolor si
+Sending Packet 113 to Client
+First 64 Bytes of Packet 113:
+ lobortis erat dapibus. Quisque volutpat facilisis tristique. Nu
+Sending Packet 114 to Client
+First 64 Bytes of Packet 114:
+semper nisl. Pellentesque habitant morbi tristique senectus et n
+Sending Packet 115 to Client
+First 64 Bytes of Packet 115:
+isse nec nisl at libero vulputate convallis. Quisque nec massa a
+Sending Packet 116 to Client
+First 64 Bytes of Packet 116:
+a eros at libero egestas, vitae tincidunt felis lobortis. Nunc c
+Sending Packet 117 to Client
+First 64 Bytes of Packet 117:
+at in risus. Nulla auctor, libero ac rhoncus finibus, justo turp
+Sending Packet 118 to Client
+First 64 Bytes of Packet 118:
+n mattis orci ut nunc egestas volutpat. Nullam eget diam suscipi
+Sending Packet 119 to Client
+First 64 Bytes of Packet 119:
+e tincidunt, finibus arcu sed, volutpat quam. Quisque a sapien n
+Sending Packet 120 to Client
+First 64 Bytes of Packet 120:
+dunt mi a, aliquam purus.
+
+Vivamus blandit, est id tempus pellen
+Sending Packet 121 to Client
+First 64 Bytes of Packet 121:
+lla, tellus quis rhoncus consectetur, purus erat semper metus, a
+Sending Packet 122 to Client
+First 64 Bytes of Packet 122:
+hac habitasse platea dictumst. Sed id aliquet ligula. Maecenas n
+Sending Packet 123 to Client
+First 64 Bytes of Packet 123:
+sed arcu laoreet suscipit. Vivamus auctor lectus ac ipsum alique
+Sending Packet 124 to Client
+First 64 Bytes of Packet 124:
+lis dapibus a at enim. Mauris nec pellentesque risus. Quisque po
+Sending Packet 125 to Client
+First 64 Bytes of Packet 125:
+, sollicitudin ac massa ac, consequat facilisis velit. Donec at 
+Sending Packet 126 to Client
+First 64 Bytes of Packet 126:
+ger lacinia augue a justo consequat varius. Sed eu nisi id torto
+Sending Packet 127 to Client
+First 64 Bytes of Packet 127:
+ habitasse platea dictumst.
+
+Pellentesque ac eros ac diam cursus
+Sending Packet 128 to Client
+First 64 Bytes of Packet 128:
+ncus. Cras pulvinar, metus non vehicula posuere, mauris tortor l
+Sending Packet 129 to Client
+First 64 Bytes of Packet 129:
+ adipiscing elit. Vestibulum maximus arcu ac metus finibus, sit 
+Sending Packet 130 to Client
+First 64 Bytes of Packet 130:
+, pulvinar ante a, bibendum nunc.
+
+Aliquam erat volutpat. Suspen
+Sending Packet 131 to Client
+First 64 Bytes of Packet 131:
+ames ac turpis egestas. Sed a metus ut massa consequat euismod. 
+Sending Packet 132 to Client
+First 64 Bytes of Packet 132:
+allis. Vivamus vehicula turpis nec aliquam lacinia. Morbi eget s
+Sending Packet 133 to Client
+First 64 Bytes of Packet 133:
+ictum, a laoreet felis feugiat. Nullam id velit nec sem sceleris
+Sending Packet 134 to Client
+First 64 Bytes of Packet 134:
+, non convallis nulla est at nunc. Quisque quis enim eget risus 
+Sending Packet 135 to Client
+First 64 Bytes of Packet 135:
+, varius risus. Sed vel velit ut urna consectetur aliquam a non 
+Sending Packet 136 to Client
+First 64 Bytes of Packet 136:
+entesque. Vestibulum consectetur lacus metus, vitae semper est f
+Sending Packet 137 to Client
+First 64 Bytes of Packet 137:
+cursus neque, vel feugiat ligula arcu et turpis. Fusce porttitor
+Sending Packet 138 to Client
+First 64 Bytes of Packet 138:
+em a erat. Aliquam convallis diam sit amet augue consectetur, a 
+Sending Packet 139 to Client
+First 64 Bytes of Packet 139:
+In semper vehicula posuere. Aliquam rhoncus ipsum non turpis vul
+Sending Packet 140 to Client
+First 64 Bytes of Packet 140:
+ula aliquet. Mauris at nisl non metus mollis lacinia.
+
+Lorem ips
+Sending Packet 141 to Client
+First 64 Bytes of Packet 141:
+acinia, sed lobortis erat dapibus. Quisque volutpat facilisis tr
+Sending Packet 142 to Client
+First 64 Bytes of Packet 142:
+ nulla in, semper nisl. Pellentesque habitant morbi tristique se
+Sending Packet 143 to Client
+First 64 Bytes of Packet 143:
+ur. Suspendisse nec nisl at libero vulputate convallis. Quisque 
+Sending Packet 144 to Client
+First 64 Bytes of Packet 144:
+ur fringilla eros at libero egestas, vitae tincidunt felis lobor
+Sending Packet 145 to Client
+First 64 Bytes of Packet 145:
+uam elit erat in risus. Nulla auctor, libero ac rhoncus finibus,
+Sending Packet 146 to Client
+First 64 Bytes of Packet 146:
+ursus. Proin mattis orci ut nunc egestas volutpat. Nullam eget d
+Sending Packet 147 to Client
+First 64 Bytes of Packet 147:
+que in neque tincidunt, finibus arcu sed, volutpat quam. Quisque
+Sending Packet 148 to Client
+First 64 Bytes of Packet 148:
+tpat, tincidunt mi a, aliquam purus.
+
+Vivamus blandit, est id te
+Sending Packet 149 to Client
+First 64 Bytes of Packet 149:
+ Sed fringilla, tellus quis rhoncus consectetur, purus erat semp
+Sending Packet 150 to Client
+First 64 Bytes of Packet 150:
+ magna. In hac habitasse platea dictumst. Sed id aliquet ligula.
+Sending Packet 151 to Client
+First 64 Bytes of Packet 151:
+s quis est sed arcu laoreet suscipit. Vivamus auctor lectus ac i
+Sending Packet 152 to Client
+First 64 Bytes of Packet 152:
+sed mi iaculis dapibus a at enim. Mauris nec pellentesque risus.
+Sending Packet 153 to Client
+First 64 Bytes of Packet 153:
+t sem velit, sollicitudin ac massa ac, consequat facilisis velit
+Sending Packet 154 to Client
+First 64 Bytes of Packet 154:
+emper. Integer lacinia augue a justo consequat varius. Sed eu ni
+Sending Packet 155 to Client
+First 64 Bytes of Packet 155:
+tum. In hac habitasse platea dictumst.
+
+Pellentesque ac eros ac 
+Sending Packet 156 to Client
+First 64 Bytes of Packet 156:
+udin ex rhoncus. Cras pulvinar, metus non vehicula posuere, maur
+Sending Packet 157 to Client
+First 64 Bytes of Packet 157:
+consectetur adipiscing elit. Vestibulum maximus arcu ac metus fi
+Sending Packet 158 to Client
+First 64 Bytes of Packet 158:
+rtor auctor, pulvinar ante a, bibendum nunc.
+
+Aliquam erat volut
+Sending Packet 159 to Client
+First 64 Bytes of Packet 159:
+malesuada fames ac turpis egestas. Sed a metus ut massa consequa
+Sending Packet 160 to Client
+First 64 Bytes of Packet 160:
+acinia convallis. Vivamus vehicula turpis nec aliquam lacinia. M
+Sending Packet 161 to Client
+First 64 Bytes of Packet 161:
+ nec nisl dictum, a laoreet felis feugiat. Nullam id velit nec s
+Sending Packet 162 to Client
+First 64 Bytes of Packet 162:
+ique tortor, non convallis nulla est at nunc. Quisque quis enim 
+Sending Packet 163 to Client
+First 64 Bytes of Packet 163:
+quat est ac, varius risus. Sed vel velit ut urna consectetur ali
+Sending Packet 164 to Client
+First 64 Bytes of Packet 164:
+varius pellentesque. Vestibulum consectetur lacus metus, vitae s
+Sending Packet 165 to Client
+First 64 Bytes of Packet 165:
+eros velit cursus neque, vel feugiat ligula arcu et turpis. Fusc
+Sending Packet 166 to Client
+First 64 Bytes of Packet 166:
+e ipsum lorem a erat. Aliquam convallis diam sit amet augue cons
+Sending Packet 167 to Client
+First 64 Bytes of Packet 167:
+is tortor. In semper vehicula posuere. Aliquam rhoncus ipsum non
+Sending Packet 168 to Client
+First 64 Bytes of Packet 168:
+ncidunt ligula aliquet. Mauris at nisl non metus mollis lacinia.
+Sending Packet 169 to Client
+First 64 Bytes of Packet 169:
+i in eros lacinia, sed lobortis erat dapibus. Quisque volutpat f
+Sending Packet 170 to Client
+First 64 Bytes of Packet 170:
+tor, cursus nulla in, semper nisl. Pellentesque habitant morbi t
+Sending Packet 171 to Client
+First 64 Bytes of Packet 171:
+que efficitur. Suspendisse nec nisl at libero vulputate convalli
+Sending Packet 172 to Client
+First 64 Bytes of Packet 172:
+ur. Curabitur fringilla eros at libero egestas, vitae tincidunt 
+Sending Packet 173 to Client
+First 64 Bytes of Packet 173:
+lit, a aliquam elit erat in risus. Nulla auctor, libero ac rhonc
+Sending Packet 174 to Client
+First 64 Bytes of Packet 174:
+pus neque cursus. Proin mattis orci ut nunc egestas volutpat. Nu
+Sending Packet 175 to Client
+First 64 Bytes of Packet 175:
+tenti. Quisque in neque tincidunt, finibus arcu sed, volutpat qu
+Sending Packet 176 to Client
+First 64 Bytes of Packet 176:
+ neque volutpat, tincidunt mi a, aliquam purus.
+
+Vivamus blandit
+Sending Packet 177 to Client
+First 64 Bytes of Packet 177:
+din tortor. Sed fringilla, tellus quis rhoncus consectetur, puru
+Sending Packet 178 to Client
+First 64 Bytes of Packet 178:
+tpat in non magna. In hac habitasse platea dictumst. Sed id aliq
+Sending Packet 179 to Client
+First 64 Bytes of Packet 179:
+rutrum. Cras quis est sed arcu laoreet suscipit. Vivamus auctor 
+[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ quir[Kt
+[?2004lCommand 'quit' not found, but can be installed with:
+sudo snap install quit
+[?2004h]0;austin@austin: ~/comp-4320/server-fold[01;32maustin@austin[00m:[01;34m~/comp-4320/server-fold[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-31 12:05:25-05:00 [COMMAND_EXIT_CODE="127"]

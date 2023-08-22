@@ -1,0 +1,678 @@
+Script started on 2023-07-31 12:08:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="125" LINES="33"]
+[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ g++ client.cpp -o cliewn[K[Knt
+[?2004l[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ ./client
+[?2004lPlease enter filename to transfer: TestFile2
+Received Packet 0 from Server
+First 64 Bytes of Packet 0:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibu
+Received Packet 1 from Server
+First 64 Bytes of Packet 1:
+ilisis tristique. Nunc in tortor auctor, pulvinar ante a, bibend
+Received Packet 2 from Server
+First 64 Bytes of Packet 2:
+stique senectus et netus et malesuada fames ac turpis egestas. S
+Received Packet 3 from Server
+First 64 Bytes of Packet 3:
+ Quisque nec massa at nunc lacinia convallis. Vivamus vehicula t
+Received Packet 4 from Server
+First 64 Bytes of Packet 4:
+lis lobortis. Nunc congue ex nec nisl dictum, a laoreet felis fe
+Received Packet 5 from Server
+First 64 Bytes of Packet 5:
+ finibus, justo turpis tristique tortor, non convallis nulla est
+Received Packet 6 from Server
+First 64 Bytes of Packet 6:
+am eget diam suscipit, consequat est ac, varius risus. Sed vel v
+Received Packet 7 from Server
+First 64 Bytes of Packet 7:
+. Quisque a sapien nec nunc varius pellentesque. Vestibulum cons
+Received Packet 8 from Server
+First 64 Bytes of Packet 8:
+est id tempus pellentesque, eros velit cursus neque, vel feugiat
+Received Packet 9 from Server
+First 64 Bytes of Packet 9:
+erat semper metus, at posuere ipsum lorem a erat. Aliquam conval
+Received Packet 10 from Server
+First 64 Bytes of Packet 10:
+t ligula. Maecenas non iaculis tortor. In semper vehicula posuer
+Received Packet 11 from Server
+First 64 Bytes of Packet 11:
+ctus ac ipsum aliquet, ut tincidunt ligula aliquet. Mauris at ni
+Received Packet 12 from Server
+First 64 Bytes of Packet 12:
+ue risus. Quisque posuere dui in eros lacinia, sed lobortis erat
+Received Packet 13 from Server
+First 64 Bytes of Packet 13:
+sis velit. Donec at nunc auctor, cursus nulla in, semper nisl. P
+Received Packet 14 from Server
+First 64 Bytes of Packet 14:
+Sed eu nisi id tortor tristique efficitur. Suspendisse nec nisl 
+Received Packet 15 from Server
+First 64 Bytes of Packet 15:
+ eros ac diam cursus efficitur. Curabitur fringilla eros at libe
+Received Packet 16 from Server
+First 64 Bytes of Packet 16:
+ere, mauris tortor laoreet elit, a aliquam elit erat in risus. N
+Received Packet 17 from Server
+First 64 Bytes of Packet 17:
+ metus finibus, sit amet tempus neque cursus. Proin mattis orci 
+Received Packet 18 from Server
+First 64 Bytes of Packet 18:
+rat volutpat. Suspendisse potenti. Quisque in neque tincidunt, f
+Received Packet 19 from Server
+First 64 Bytes of Packet 19:
+ consequat euismod. Nullam a neque volutpat, tincidunt mi a, ali
+Received Packet 20 from Server
+First 64 Bytes of Packet 20:
+acinia. Morbi eget sollicitudin tortor. Sed fringilla, tellus qu
+Received Packet 21 from Server
+First 64 Bytes of Packet 21:
+lit nec sem scelerisque volutpat in non magna. In hac habitasse 
+Received Packet 22 from Server
+First 64 Bytes of Packet 22:
+uis enim eget risus maximus rutrum. Cras quis est sed arcu laore
+Received Packet 23 from Server
+First 64 Bytes of Packet 23:
+tetur aliquam a non sem. Morbi a lacus sed mi iaculis dapibus a 
+Received Packet 24 from Server
+First 64 Bytes of Packet 24:
+, vitae semper est fermentum a. Praesent sem velit, sollicitudin
+Received Packet 25 from Server
+First 64 Bytes of Packet 25:
+pis. Fusce porttitor elit vel lacinia semper. Integer lacinia au
+Received Packet 26 from Server
+First 64 Bytes of Packet 26:
+ugue consectetur, a cursus justo fermentum. In hac habitasse pla
+Received Packet 27 from Server
+First 64 Bytes of Packet 27:
+ipsum non turpis vulputate, ut sollicitudin ex rhoncus. Cras pul
+Received Packet 28 from Server
+First 64 Bytes of Packet 28:
+ lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing el
+Received Packet 29 from Server
+First 64 Bytes of Packet 29:
+olutpat facilisis tristique. Nunc in tortor auctor, pulvinar ant
+Received Packet 30 from Server
+First 64 Bytes of Packet 30:
+t morbi tristique senectus et netus et malesuada fames ac turpis
+Received Packet 31 from Server
+First 64 Bytes of Packet 31:
+ convallis. Quisque nec massa at nunc lacinia convallis. Vivamus
+Received Packet 32 from Server
+First 64 Bytes of Packet 32:
+incidunt felis lobortis. Nunc congue ex nec nisl dictum, a laore
+Received Packet 33 from Server
+First 64 Bytes of Packet 33:
+ ac rhoncus finibus, justo turpis tristique tortor, non convalli
+Received Packet 34 from Server
+First 64 Bytes of Packet 34:
+utpat. Nullam eget diam suscipit, consequat est ac, varius risus
+Received Packet 35 from Server
+First 64 Bytes of Packet 35:
+lutpat quam. Quisque a sapien nec nunc varius pellentesque. Vest
+Received Packet 36 from Server
+First 64 Bytes of Packet 36:
+s blandit, est id tempus pellentesque, eros velit cursus neque, 
+Received Packet 37 from Server
+First 64 Bytes of Packet 37:
+tur, purus erat semper metus, at posuere ipsum lorem a erat. Ali
+Received Packet 38 from Server
+First 64 Bytes of Packet 38:
+d id aliquet ligula. Maecenas non iaculis tortor. In semper vehi
+Received Packet 39 from Server
+First 64 Bytes of Packet 39:
+s auctor lectus ac ipsum aliquet, ut tincidunt ligula aliquet. M
+Received Packet 40 from Server
+First 64 Bytes of Packet 40:
+ pellentesque risus. Quisque posuere dui in eros lacinia, sed lo
+Received Packet 41 from Server
+First 64 Bytes of Packet 41:
+quat facilisis velit. Donec at nunc auctor, cursus nulla in, sem
+Received Packet 42 from Server
+First 64 Bytes of Packet 42:
+at varius. Sed eu nisi id tortor tristique efficitur. Suspendiss
+Received Packet 43 from Server
+First 64 Bytes of Packet 43:
+entesque ac eros ac diam cursus efficitur. Curabitur fringilla e
+Received Packet 44 from Server
+First 64 Bytes of Packet 44:
+hicula posuere, mauris tortor laoreet elit, a aliquam elit erat 
+Received Packet 45 from Server
+First 64 Bytes of Packet 45:
+mus arcu ac metus finibus, sit amet tempus neque cursus. Proin m
+Received Packet 46 from Server
+First 64 Bytes of Packet 46:
+
+
+Aliquam erat volutpat. Suspendisse potenti. Quisque in neque t
+Received Packet 47 from Server
+First 64 Bytes of Packet 47:
+us ut massa consequat euismod. Nullam a neque volutpat, tincidun
+Received Packet 48 from Server
+First 64 Bytes of Packet 48:
+c aliquam lacinia. Morbi eget sollicitudin tortor. Sed fringilla
+Received Packet 49 from Server
+First 64 Bytes of Packet 49:
+ullam id velit nec sem scelerisque volutpat in non magna. In hac
+Received Packet 50 from Server
+First 64 Bytes of Packet 50:
+. Quisque quis enim eget risus maximus rutrum. Cras quis est sed
+Received Packet 51 from Server
+First 64 Bytes of Packet 51:
+urna consectetur aliquam a non sem. Morbi a lacus sed mi iaculis
+Received Packet 52 from Server
+First 64 Bytes of Packet 52:
+lacus metus, vitae semper est fermentum a. Praesent sem velit, s
+Received Packet 53 from Server
+First 64 Bytes of Packet 53:
+arcu et turpis. Fusce porttitor elit vel lacinia semper. Integer
+Received Packet 54 from Server
+First 64 Bytes of Packet 54:
+ sit amet augue consectetur, a cursus justo fermentum. In hac ha
+Received Packet 55 from Server
+First 64 Bytes of Packet 55:
+am rhoncus ipsum non turpis vulputate, ut sollicitudin ex rhoncu
+Received Packet 56 from Server
+First 64 Bytes of Packet 56:
+etus mollis lacinia.
+
+Lorem ipsum dolor sit amet, consectetur ad
+Received Packet 57 from Server
+First 64 Bytes of Packet 57:
+. Quisque volutpat facilisis tristique. Nunc in tortor auctor, p
+Received Packet 58 from Server
+First 64 Bytes of Packet 58:
+que habitant morbi tristique senectus et netus et malesuada fame
+Received Packet 59 from Server
+First 64 Bytes of Packet 59:
+o vulputate convallis. Quisque nec massa at nunc lacinia convall
+Received Packet 60 from Server
+First 64 Bytes of Packet 60:
+as, vitae tincidunt felis lobortis. Nunc congue ex nec nisl dict
+Received Packet 61 from Server
+First 64 Bytes of Packet 61:
+tor, libero ac rhoncus finibus, justo turpis tristique tortor, n
+Received Packet 62 from Server
+First 64 Bytes of Packet 62:
+egestas volutpat. Nullam eget diam suscipit, consequat est ac, v
+Received Packet 63 from Server
+First 64 Bytes of Packet 63:
+rcu sed, volutpat quam. Quisque a sapien nec nunc varius pellent
+Received Packet 64 from Server
+First 64 Bytes of Packet 64:
+us.
+
+Vivamus blandit, est id tempus pellentesque, eros velit cur
+Received Packet 65 from Server
+First 64 Bytes of Packet 65:
+us consectetur, purus erat semper metus, at posuere ipsum lorem 
+Received Packet 66 from Server
+First 64 Bytes of Packet 66:
+ictumst. Sed id aliquet ligula. Maecenas non iaculis tortor. In 
+Received Packet 67 from Server
+First 64 Bytes of Packet 67:
+pit. Vivamus auctor lectus ac ipsum aliquet, ut tincidunt ligula
+Received Packet 68 from Server
+First 64 Bytes of Packet 68:
+ Mauris nec pellentesque risus. Quisque posuere dui in eros laci
+Received Packet 69 from Server
+First 64 Bytes of Packet 69:
+a ac, consequat facilisis velit. Donec at nunc auctor, cursus nu
+Received Packet 70 from Server
+First 64 Bytes of Packet 70:
+sto consequat varius. Sed eu nisi id tortor tristique efficitur.
+Received Packet 71 from Server
+First 64 Bytes of Packet 71:
+umst.
+
+Pellentesque ac eros ac diam cursus efficitur. Curabitur 
+Received Packet 72 from Server
+First 64 Bytes of Packet 72:
+etus non vehicula posuere, mauris tortor laoreet elit, a aliquam
+Received Packet 73 from Server
+First 64 Bytes of Packet 73:
+ibulum maximus arcu ac metus finibus, sit amet tempus neque curs
+Received Packet 74 from Server
+First 64 Bytes of Packet 74:
+endum nunc.
+
+Aliquam erat volutpat. Suspendisse potenti. Quisque
+Received Packet 75 from Server
+First 64 Bytes of Packet 75:
+. Sed a metus ut massa consequat euismod. Nullam a neque volutpa
+Received Packet 76 from Server
+First 64 Bytes of Packet 76:
+a turpis nec aliquam lacinia. Morbi eget sollicitudin tortor. Se
+Received Packet 77 from Server
+First 64 Bytes of Packet 77:
+ feugiat. Nullam id velit nec sem scelerisque volutpat in non ma
+Received Packet 78 from Server
+First 64 Bytes of Packet 78:
+est at nunc. Quisque quis enim eget risus maximus rutrum. Cras q
+Received Packet 79 from Server
+First 64 Bytes of Packet 79:
+l velit ut urna consectetur aliquam a non sem. Morbi a lacus sed
+Received Packet 80 from Server
+First 64 Bytes of Packet 80:
+onsectetur lacus metus, vitae semper est fermentum a. Praesent s
+Received Packet 81 from Server
+First 64 Bytes of Packet 81:
+iat ligula arcu et turpis. Fusce porttitor elit vel lacinia semp
+Received Packet 82 from Server
+First 64 Bytes of Packet 82:
+vallis diam sit amet augue consectetur, a cursus justo fermentum
+Received Packet 83 from Server
+First 64 Bytes of Packet 83:
+uere. Aliquam rhoncus ipsum non turpis vulputate, ut sollicitudi
+Received Packet 84 from Server
+First 64 Bytes of Packet 84:
+ nisl non metus mollis lacinia.
+
+Lorem ipsum dolor sit amet, con
+Received Packet 85 from Server
+First 64 Bytes of Packet 85:
+rat dapibus. Quisque volutpat facilisis tristique. Nunc in torto
+Received Packet 86 from Server
+First 64 Bytes of Packet 86:
+. Pellentesque habitant morbi tristique senectus et netus et mal
+Received Packet 87 from Server
+First 64 Bytes of Packet 87:
+sl at libero vulputate convallis. Quisque nec massa at nunc laci
+Received Packet 88 from Server
+First 64 Bytes of Packet 88:
+ibero egestas, vitae tincidunt felis lobortis. Nunc congue ex ne
+Received Packet 89 from Server
+First 64 Bytes of Packet 89:
+. Nulla auctor, libero ac rhoncus finibus, justo turpis tristiqu
+Received Packet 90 from Server
+First 64 Bytes of Packet 90:
+ci ut nunc egestas volutpat. Nullam eget diam suscipit, consequa
+Received Packet 91 from Server
+First 64 Bytes of Packet 91:
+, finibus arcu sed, volutpat quam. Quisque a sapien nec nunc var
+Received Packet 92 from Server
+First 64 Bytes of Packet 92:
+aliquam purus.
+
+Vivamus blandit, est id tempus pellentesque, ero
+Received Packet 93 from Server
+First 64 Bytes of Packet 93:
+ quis rhoncus consectetur, purus erat semper metus, at posuere i
+Received Packet 94 from Server
+First 64 Bytes of Packet 94:
+se platea dictumst. Sed id aliquet ligula. Maecenas non iaculis 
+Received Packet 95 from Server
+First 64 Bytes of Packet 95:
+oreet suscipit. Vivamus auctor lectus ac ipsum aliquet, ut tinci
+Received Packet 96 from Server
+First 64 Bytes of Packet 96:
+ a at enim. Mauris nec pellentesque risus. Quisque posuere dui i
+Received Packet 97 from Server
+First 64 Bytes of Packet 97:
+din ac massa ac, consequat facilisis velit. Donec at nunc auctor
+Received Packet 98 from Server
+First 64 Bytes of Packet 98:
+ augue a justo consequat varius. Sed eu nisi id tortor tristique
+Received Packet 99 from Server
+First 64 Bytes of Packet 99:
+platea dictumst.
+
+Pellentesque ac eros ac diam cursus efficitur.
+Received Packet 100 from Server
+First 64 Bytes of Packet 100:
+pulvinar, metus non vehicula posuere, mauris tortor laoreet elit
+Received Packet 101 from Server
+First 64 Bytes of Packet 101:
+ elit. Vestibulum maximus arcu ac metus finibus, sit amet tempus
+Received Packet 102 from Server
+First 64 Bytes of Packet 102:
+ante a, bibendum nunc.
+
+Aliquam erat volutpat. Suspendisse poten
+Received Packet 103 from Server
+First 64 Bytes of Packet 103:
+pis egestas. Sed a metus ut massa consequat euismod. Nullam a ne
+Received Packet 104 from Server
+First 64 Bytes of Packet 104:
+mus vehicula turpis nec aliquam lacinia. Morbi eget sollicitudin
+Received Packet 105 from Server
+First 64 Bytes of Packet 105:
+oreet felis feugiat. Nullam id velit nec sem scelerisque volutpa
+Received Packet 106 from Server
+First 64 Bytes of Packet 106:
+llis nulla est at nunc. Quisque quis enim eget risus maximus rut
+Received Packet 107 from Server
+First 64 Bytes of Packet 107:
+sus. Sed vel velit ut urna consectetur aliquam a non sem. Morbi 
+Received Packet 108 from Server
+First 64 Bytes of Packet 108:
+estibulum consectetur lacus metus, vitae semper est fermentum a.
+Received Packet 109 from Server
+First 64 Bytes of Packet 109:
+e, vel feugiat ligula arcu et turpis. Fusce porttitor elit vel l
+Received Packet 110 from Server
+First 64 Bytes of Packet 110:
+Aliquam convallis diam sit amet augue consectetur, a cursus just
+Received Packet 111 from Server
+First 64 Bytes of Packet 111:
+ehicula posuere. Aliquam rhoncus ipsum non turpis vulputate, ut 
+Received Packet 112 from Server
+First 64 Bytes of Packet 112:
+. Mauris at nisl non metus mollis lacinia.
+
+Lorem ipsum dolor si
+Received Packet 113 from Server
+First 64 Bytes of Packet 113:
+ lobortis erat dapibus. Quisque volutpat facilisis tristique. Nu
+Received Packet 114 from Server
+First 64 Bytes of Packet 114:
+semper nisl. Pellentesque habitant morbi tristique senectus et n
+Received Packet 115 from Server
+First 64 Bytes of Packet 115:
+isse nec nisl at libero vulputate convallis. Quisque nec massa a
+Received Packet 116 from Server
+First 64 Bytes of Packet 116:
+a eros at libero egestas, vitae tincidunt felis lobortis. Nunc c
+Received Packet 117 from Server
+First 64 Bytes of Packet 117:
+at in risus. Nulla auctor, libero ac rhoncus finibus, justo turp
+Received Packet 118 from Server
+First 64 Bytes of Packet 118:
+n mattis orci ut nunc egestas volutpat. Nullam eget diam suscipi
+Received Packet 119 from Server
+First 64 Bytes of Packet 119:
+e tincidunt, finibus arcu sed, volutpat quam. Quisque a sapien n
+Received Packet 120 from Server
+First 64 Bytes of Packet 120:
+dunt mi a, aliquam purus.
+
+Vivamus blandit, est id tempus pellen
+Received Packet 121 from Server
+First 64 Bytes of Packet 121:
+lla, tellus quis rhoncus consectetur, purus erat semper metus, a
+Received Packet 122 from Server
+First 64 Bytes of Packet 122:
+hac habitasse platea dictumst. Sed id aliquet ligula. Maecenas n
+Received Packet 123 from Server
+First 64 Bytes of Packet 123:
+sed arcu laoreet suscipit. Vivamus auctor lectus ac ipsum alique
+Received Packet 124 from Server
+First 64 Bytes of Packet 124:
+lis dapibus a at enim. Mauris nec pellentesque risus. Quisque po
+Received Packet 125 from Server
+First 64 Bytes of Packet 125:
+, sollicitudin ac massa ac, consequat facilisis velit. Donec at 
+Received Packet 126 from Server
+First 64 Bytes of Packet 126:
+ger lacinia augue a justo consequat varius. Sed eu nisi id torto
+Received Packet 127 from Server
+First 64 Bytes of Packet 127:
+ habitasse platea dictumst.
+
+Pellentesque ac eros ac diam cursus
+Received Packet 128 from Server
+First 64 Bytes of Packet 128:
+ncus. Cras pulvinar, metus non vehicula posuere, mauris tortor l
+Received Packet 129 from Server
+First 64 Bytes of Packet 129:
+ adipiscing elit. Vestibulum maximus arcu ac metus finibus, sit 
+Received Packet 130 from Server
+First 64 Bytes of Packet 130:
+, pulvinar ante a, bibendum nunc.
+
+Aliquam erat volutpat. Suspen
+Received Packet 131 from Server
+First 64 Bytes of Packet 131:
+ames ac turpis egestas. Sed a metus ut massa consequat euismod. 
+Received Packet 132 from Server
+First 64 Bytes of Packet 132:
+allis. Vivamus vehicula turpis nec aliquam lacinia. Morbi eget s
+Received Packet 133 from Server
+First 64 Bytes of Packet 133:
+ictum, a laoreet felis feugiat. Nullam id velit nec sem sceleris
+Received Packet 134 from Server
+First 64 Bytes of Packet 134:
+, non convallis nulla est at nunc. Quisque quis enim eget risus 
+Received Packet 135 from Server
+First 64 Bytes of Packet 135:
+, varius risus. Sed vel velit ut urna consectetur aliquam a non 
+Received Packet 136 from Server
+First 64 Bytes of Packet 136:
+entesque. Vestibulum consectetur lacus metus, vitae semper est f
+Received Packet 137 from Server
+First 64 Bytes of Packet 137:
+cursus neque, vel feugiat ligula arcu et turpis. Fusce porttitor
+Received Packet 138 from Server
+First 64 Bytes of Packet 138:
+em a erat. Aliquam convallis diam sit amet augue consectetur, a 
+Received Packet 139 from Server
+First 64 Bytes of Packet 139:
+In semper vehicula posuere. Aliquam rhoncus ipsum non turpis vul
+Received Packet 140 from Server
+First 64 Bytes of Packet 140:
+ula aliquet. Mauris at nisl non metus mollis lacinia.
+
+Lorem ips
+Received Packet 141 from Server
+First 64 Bytes of Packet 141:
+acinia, sed lobortis erat dapibus. Quisque volutpat facilisis tr
+Received Packet 142 from Server
+First 64 Bytes of Packet 142:
+ nulla in, semper nisl. Pellentesque habitant morbi tristique se
+Received Packet 143 from Server
+First 64 Bytes of Packet 143:
+ur. Suspendisse nec nisl at libero vulputate convallis. Quisque 
+Received Packet 144 from Server
+First 64 Bytes of Packet 144:
+ur fringilla eros at libero egestas, vitae tincidunt felis lobor
+Received Packet 145 from Server
+First 64 Bytes of Packet 145:
+uam elit erat in risus. Nulla auctor, libero ac rhoncus finibus,
+Received Packet 146 from Server
+First 64 Bytes of Packet 146:
+ursus. Proin mattis orci ut nunc egestas volutpat. Nullam eget d
+Received Packet 147 from Server
+First 64 Bytes of Packet 147:
+que in neque tincidunt, finibus arcu sed, volutpat quam. Quisque
+Received Packet 148 from Server
+First 64 Bytes of Packet 148:
+tpat, tincidunt mi a, aliquam purus.
+
+Vivamus blandit, est id te
+Received Packet 149 from Server
+First 64 Bytes of Packet 149:
+ Sed fringilla, tellus quis rhoncus consectetur, purus erat semp
+Received Packet 150 from Server
+First 64 Bytes of Packet 150:
+ magna. In hac habitasse platea dictumst. Sed id aliquet ligula.
+Received Packet 151 from Server
+First 64 Bytes of Packet 151:
+s quis est sed arcu laoreet suscipit. Vivamus auctor lectus ac i
+Received Packet 152 from Server
+First 64 Bytes of Packet 152:
+sed mi iaculis dapibus a at enim. Mauris nec pellentesque risus.
+Received Packet 153 from Server
+First 64 Bytes of Packet 153:
+t sem velit, sollicitudin ac massa ac, consequat facilisis velit
+Received Packet 154 from Server
+First 64 Bytes of Packet 154:
+emper. Integer lacinia augue a justo consequat varius. Sed eu ni
+Received Packet 155 from Server
+First 64 Bytes of Packet 155:
+tum. In hac habitasse platea dictumst.
+
+Pellentesque ac eros ac 
+Received Packet 156 from Server
+First 64 Bytes of Packet 156:
+udin ex rhoncus. Cras pulvinar, metus non vehicula posuere, maur
+Received Packet 157 from Server
+First 64 Bytes of Packet 157:
+consectetur adipiscing elit. Vestibulum maximus arcu ac metus fi
+Received Packet 158 from Server
+First 64 Bytes of Packet 158:
+rtor auctor, pulvinar ante a, bibendum nunc.
+
+Aliquam erat volut
+Received Packet 159 from Server
+First 64 Bytes of Packet 159:
+malesuada fames ac turpis egestas. Sed a metus ut massa consequa
+Received Packet 160 from Server
+First 64 Bytes of Packet 160:
+acinia convallis. Vivamus vehicula turpis nec aliquam lacinia. M
+Received Packet 161 from Server
+First 64 Bytes of Packet 161:
+ nec nisl dictum, a laoreet felis feugiat. Nullam id velit nec s
+Received Packet 162 from Server
+First 64 Bytes of Packet 162:
+ique tortor, non convallis nulla est at nunc. Quisque quis enim 
+Received Packet 163 from Server
+First 64 Bytes of Packet 163:
+quat est ac, varius risus. Sed vel velit ut urna consectetur ali
+Received Packet 164 from Server
+First 64 Bytes of Packet 164:
+varius pellentesque. Vestibulum consectetur lacus metus, vitae s
+Received Packet 165 from Server
+First 64 Bytes of Packet 165:
+eros velit cursus neque, vel feugiat ligula arcu et turpis. Fusc
+Received Packet 166 from Server
+First 64 Bytes of Packet 166:
+e ipsum lorem a erat. Aliquam convallis diam sit amet augue cons
+Received Packet 167 from Server
+First 64 Bytes of Packet 167:
+is tortor. In semper vehicula posuere. Aliquam rhoncus ipsum non
+Received Packet 168 from Server
+First 64 Bytes of Packet 168:
+ncidunt ligula aliquet. Mauris at nisl non metus mollis lacinia.
+Received Packet 169 from Server
+First 64 Bytes of Packet 169:
+i in eros lacinia, sed lobortis erat dapibus. Quisque volutpat f
+Received Packet 170 from Server
+First 64 Bytes of Packet 170:
+tor, cursus nulla in, semper nisl. Pellentesque habitant morbi t
+Received Packet 171 from Server
+First 64 Bytes of Packet 171:
+que efficitur. Suspendisse nec nisl at libero vulputate convalli
+Received Packet 172 from Server
+First 64 Bytes of Packet 172:
+ur. Curabitur fringilla eros at libero egestas, vitae tincidunt 
+Received Packet 173 from Server
+First 64 Bytes of Packet 173:
+lit, a aliquam elit erat in risus. Nulla auctor, libero ac rhonc
+Received Packet 174 from Server
+First 64 Bytes of Packet 174:
+pus neque cursus. Proin mattis orci ut nunc egestas volutpat. Nu
+Received Packet 175 from Server
+First 64 Bytes of Packet 175:
+tenti. Quisque in neque tincidunt, finibus arcu sed, volutpat qu
+Received Packet 176 from Server
+First 64 Bytes of Packet 176:
+ neque volutpat, tincidunt mi a, aliquam purus.
+
+Vivamus blandit
+Received Packet 177 from Server
+First 64 Bytes of Packet 177:
+din tortor. Sed fringilla, tellus quis rhoncus consectetur, puru
+Received Packet 178 from Server
+First 64 Bytes of Packet 178:
+tpat in non magna. In hac habitasse platea dictumst. Sed id aliq
+Received Packet 179 from Server
+First 64 Bytes of Packet 179:
+rutrum. Cras quis est sed arcu laoreet suscipit. Vivamus auctor 
+Received Packet 180 from Server
+First 64 Bytes of Packet 180:
+ligula. Maecenas non iaculis tortor. In semper vehicula posuere.
+Received Packet 181 from Server
+First 64 Bytes of Packet 181:
+us ac ipsum aliquet, ut tincidunt ligula aliquet. Mauris at nisl
+Received Packet 182 from Server
+First 64 Bytes of Packet 182:
+ risus. Quisque posuere dui in eros lacinia, sed lobortis erat d
+Received Packet 183 from Server
+First 64 Bytes of Packet 183:
+s velit. Donec at nunc auctor, cursus nulla in, semper nisl. Pel
+Received Packet 184 from Server
+First 64 Bytes of Packet 184:
+d eu nisi id tortor tristique efficitur. Suspendisse nec nisl at
+Received Packet 185 from Server
+First 64 Bytes of Packet 185:
+ros ac diam cursus efficitur. Curabitur fringilla eros at libero
+Received Packet 186 from Server
+First 64 Bytes of Packet 186:
+e, mauris tortor laoreet elit, a aliquam elit erat in risus. Nul
+Received Packet 187 from Server
+First 64 Bytes of Packet 187:
+etus finibus, sit amet tempus neque cursus. Proin mattis orci ut
+Received Packet 188 from Server
+First 64 Bytes of Packet 188:
+t volutpat. Suspendisse potenti. Quisque in neque tincidunt, fin
+Received Packet 189 from Server
+First 64 Bytes of Packet 189:
+onsequat euismod. Nullam a neque volutpat, tincidunt mi a, aliqu
+Received Packet 190 from Server
+First 64 Bytes of Packet 190:
+inia. Morbi eget sollicitudin tortor. Sed fringilla, tellus quis
+Received Packet 191 from Server
+First 64 Bytes of Packet 191:
+t nec sem scelerisque volutpat in non magna. In hac habitasse pl
+Received Packet 192 from Server
+First 64 Bytes of Packet 192:
+s enim eget risus maximus rutrum. Cras quis est sed arcu laoreet
+Received Packet 193 from Server
+First 64 Bytes of Packet 193:
+tur aliquam a non sem. Morbi a lacus sed mi iaculis dapibus a at
+Received Packet 194 from Server
+First 64 Bytes of Packet 194:
+vitae semper est fermentum a. Praesent sem velit, sollicitudin a
+Received Packet 195 from Server
+First 64 Bytes of Packet 195:
+s. Fusce porttitor elit vel lacinia semper. Integer lacinia augu
+Received Packet 196 from Server
+First 64 Bytes of Packet 196:
+ue consectetur, a cursus justo fermentum. In hac habitasse plate
+Received Packet 197 from Server
+First 64 Bytes of Packet 197:
+sum non turpis vulputate, ut sollicitudin ex rhoncus. Cras pulvi
+Received Packet 198 from Server
+First 64 Bytes of Packet 198:
+acinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Received Packet 199 from Server
+First 64 Bytes of Packet 199:
+utpat facilisis tristique. Nunc in tortor auctor, pulvinar ante 
+Received Packet 200 from Server
+First 64 Bytes of Packet 200:
+morbi tristique senectus et netus et malesuada fames ac turpis e
+Received Packet 201 from Server
+First 64 Bytes of Packet 201:
+onvallis. Quisque nec massa at nunc lacinia convallis. Vivamus v
+Received Packet 202 from Server
+First 64 Bytes of Packet 202:
+cidunt felis lobortis. Nunc congue ex nec nisl dictum, a laoreet
+Received Packet 203 from Server
+First 64 Bytes of Packet 203:
+c rhoncus finibus, justo turpis tristique tortor, non convallis 
+Received Packet 204 from Server
+First 64 Bytes of Packet 204:
+pat. Nullam eget diam suscipit, consequat est ac, varius risus. 
+Received Packet 205 from Server
+First 64 Bytes of Packet 205:
+tpat quam. Quisque a sapien nec nunc varius pellentesque. Vestib
+Received Packet 206 from Server
+First 64 Bytes of Packet 206:
+blandit, est id tempus pellentesque, eros velit cursus neque, ve
+Received Packet 207 from Server
+First 64 Bytes of Packet 207:
+r, purus erat semper metus, at posuere ipsum lorem a erat. Aliqu
+Received Packet 208 from Server
+First 64 Bytes of Packet 208:
+id aliquet ligula. Maecenas non iaculis tortor. In semper vehicu
+Received Packet 209 from Server
+First 64 Bytes of Packet 209:
+auctor lectus ac ipsum aliquet, ut tincidunt ligula aliquet. Mau
+[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-31 12:09:00-05:00 [COMMAND_EXIT_CODE="0"]

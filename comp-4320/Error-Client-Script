@@ -1,0 +1,9 @@
+Script started on 2023-07-31 12:10:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="125" LINES="33"]
+[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ g++ client.cpp =[K-o client
+[?2004l[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ ./client
+[?2004lPlease enter filename to transfer: NotinDirec
+Error received from server: File does not exist in directory.
+[?2004h]0;austin@austin: ~/comp-4320[01;32maustin@austin[00m:[01;34m~/comp-4320[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-31 12:11:02-05:00 [COMMAND_EXIT_CODE="1"]
