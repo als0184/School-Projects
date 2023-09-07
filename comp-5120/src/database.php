@@ -1,12 +1,12 @@
 <?php
-//servername
-$dblink = "sysmysql8.auburn.edu";
-//username of database
-$dbusername = "als0184";
-//password of database
-$dbpass = "Sadcarebear21!";
-//database name "username-db"
-$dbname = "als0184db";
+//servername...left blank intentionally
+$dblink = "";
+//username of database...left blank intentionally
+$dbusername = "";
+//password of database...left blank intentionally
+$dbpass = "";
+//database name "username-db...left blank intentionally
+$dbname = "";
 
 //creates a connection to the database - Reference: "https://phoenixnap.com/kb/connect-mysql-with-php"
 function get_connection() {
