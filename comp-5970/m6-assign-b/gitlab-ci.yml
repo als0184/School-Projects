@@ -1,0 +1,49 @@
+#
+# Gitlab pipeline config
+#
+
+stages:
+  - build
+  - deploy
+  - dast-scan
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+  EBS_PORT: 5000
+  DAST_WEBSITE: "https://als0184.au-csse-cpsc4970.com/"
+
+# Cache downloaded dependencies and plugins between builds.
+# To keep cache across branches add 'key: "$CI_JOB_NAME"'
+cache:
+  paths:
+    - .m2/repository
+    - target
+
+build:
+  image: maven:3.8-openjdk-11
+  stage: build
+  script:
+    - sed -i "s|8080|$EBS_PORT|g" src/main/resources/application.properties
+    - cat src/main/resources/application.properties
+    - mvn package -s ci_settings.xml
+  only:
+    - main
+
+aws-elb-deploy:
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  stage: deploy
+  script:
+    - aws s3 cp target/webapp6b-als0184-0.0.1-SNAPSHOT.war s3://m5a-bucket/webapp6b-als0184-0.0.1-SNAPSHOT.war
+    - aws elasticbeanstalk create-application-version --region us-east-2 --application-name m5-webapp --version-label "als0184-$CI_COMMIT_SHORT_SHA" --source-bundle S3Bucket="m5a-bucket",S3Key="webapp6b-als0184-0.0.1-SNAPSHOT.war"
+    - aws elasticbeanstalk update-environment --region us-east-2 --environment-name als0184-env --version-label "als0184-$CI_COMMIT_SHORT_SHA"
+  dependencies:
+    - build
+  only:
+    - main
+
+dast:
+  stage: dast-scan
+
+include:
+  - template: DAST.gitlab-ci.yml
+
