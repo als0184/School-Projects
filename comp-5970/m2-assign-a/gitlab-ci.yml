@@ -1,0 +1,62 @@
+stages:
+  - build
+  - test
+  - mathStage
+  - deploy
+
+image: alpine
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
+
+simpleStage1:
+  stage: build
+  allow_failure: true # This job fails but we need the pipeline to continue. 
+  script:
+    - echo "Running simpleStage1"
+    - exit -23 # Return error - changed to a non zero value
+
+simpleTest1:
+  stage: test
+  allow_failure: true # This job fails but we need the pipeline to continue.
+  script:
+    - echo "Running simpleTest1"
+    - exit -1 # Return Error - non zero value
+
+simpleTest2:
+  stage: test
+  script:
+    - echo "Running simpleTest2"
+    - exit 0 # Return Success
+
+simpleDeploy1:
+  stage: deploy
+  allow_failure: true # This job will fail but we need to continue in the pipeline.
+  script:
+    - echo "Running simpleDeploy1"
+    - exit -1 # Return error - Similar to simpleTest1 we have a non zero value.
+
+simpleDeploy2:
+  stage: deploy
+  script:
+    - echo " Running simpleDeploy2"
+    - exit 0 # Return Success
+
+simpleAddition1:
+  stage: mathStage
+  script:
+    - echo "Running the addition job"
+    - sum=$((2 + 2))
+    - echo "The sum of 2 and 2 is $sum"
+    - exit 0 # Return Scucces
+
+simpleAddition2:
+  stage: mathStage
+  allow_failure: true # This job will fail but we need to continue in the pipeline.
+  script:
+    - echo "Running simpleAddition2"
+    - sum=$((4 + 3))
+    - echo "The sum of 4 and 3 is 10"
+    - exit -1 # Return error - Expected output is 7.
