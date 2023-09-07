@@ -1,0 +1,50 @@
+#
+# Gitlab pipeline config
+#
+
+stages:
+  - build
+  - deploy
+  - dast
+
+cache:
+  paths:
+    - .m2/repository
+    - target
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+  EBS_PORT: 5000
+  DAST_WEBSITE: "http://als0184.au-csse-cpsc4970.com/"
+
+build:
+  image: maven:3.8-openjdk-11
+  stage: build
+  script:
+    # Replace local port 8080 to AWS Elastic Beanstalk 5000
+    - sed -i "s|8080|$EBS_PORT|g" src/main/resources/application.properties
+    - cat src/main/resources/application.properties 
+    - mvn package -s ci_settings.xml     
+  only:
+    - main  
+
+aws-elb-deploy:
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  stage: deploy
+  script:
+# Update war file to AWS S3 for staging deployment into Elastic Beanstalk web application server
+  - aws s3 cp target/webapp5a-als0184-0.0.1-SNAPSHOT.war s3://m5a-bucket/webapp5a-als0184-0.0.1-SNAPSHOT.war
+# Update Application version in Elastic Beanstalk with file from S3
+  - aws elasticbeanstalk create-application-version --region us-east-2 --application-name m5-webapp --version-label "als0184-$CI_COMMIT_SHORT_SHA" --source-bundle S3Bucket="m5a-bucket",S3Key="webapp5a-als0184-0.0.1-SNAPSHOT.war"
+# Reload/deploy Elastic Beanstalk environment with the new version 
+  - aws elasticbeanstalk update-environment --region us-east-2 --environment-name als0184-env --version-label "als0184-$CI_COMMIT_SHORT_SHA"
+  dependencies:
+    - build
+  only:
+    - main
+
+include:
+  - template: DAST.gitlab-ci.yml
+
+
+
