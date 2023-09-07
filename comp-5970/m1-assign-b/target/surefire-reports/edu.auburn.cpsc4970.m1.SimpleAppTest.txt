@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.auburn.cpsc4970.m1.SimpleAppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in edu.auburn.cpsc4970.m1.SimpleAppTest

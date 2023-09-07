@@ -1,0 +1,27 @@
+This is simply my documentation of completing this assignment. This is entrily
+repetitive and unneeded but it helps me keep track of all I did.
+(Side note: The terminal does not spell check so I will more then likly mis
+spell alot of words... I am sorry) 
+
+I followed the first part of the assignment where I was able to install both
+the proper java version and maven. I then cloned the gitlab repository and was
+able to follow along with the general overview and basic commands for Maven.
+
+This accounted for steps 1-10 of the assignments instructions, and since there
+was nothing to commit or add to the repository during these steps I submitted
+a seperate .txt file and pushed it to the repository. This .txt file was
+similar to this but just documented the completion of those steps. 
+
+Following that I then started on the "Modifying the Maven Build" 
+In these steps I created a new branch called feature-add and edited the
+pom.xml file and added my auburn email as the artifact id. I ran the mvn
+package and saw that the id had changed. I then added and commited these
+changes.
+
+Next I went into the App class and added a simple method for adding two
+integers. Following that I implemted a junit test to the test class. I then
+added and commited these changes and ran the mvn compile, mvn test, and mvn
+package. This allowed me to see that the test case was passing and had no
+comiplation errors.
+
+Finally I pushed the branch to the repository and merged it into main branch. 

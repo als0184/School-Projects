@@ -1,0 +1,8 @@
+I ran through the first part of the assignment which was just an overview of
+the basic maven commands.... Throughout the process there were no untracked
+files and no need for any commits.
+
+I decided just for the sake of documentation I would create this txt file to
+say I have completed the first part of the assignment.
+
+I will now add and commit this file. 
