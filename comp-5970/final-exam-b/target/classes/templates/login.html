@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CPSC4970 Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Login Form</h2>
+<h3><span class="error" th:text="${message}" /></h3>
+
+<form action="/login_handler" method="post">
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="uname"  type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+
+        <button id="lsub" type="submit">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button class="cancelbtn">Cancel</button>
+    </div>
+</form>
+
+</body>
+</html>

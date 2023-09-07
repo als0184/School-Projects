@@ -1,0 +1,73 @@
+#
+# Gitlab pipeline config
+#
+
+stages:
+  - compile
+  - test
+  - package 
+  - sast 
+  - depend-scan
+  - deploy
+  - dast
+
+#
+# Only executes pipeline on main branch
+#
+workflow:
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
+    
+cache:
+  paths:
+    - .m2/repository
+    - target
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+  DAST_WEBSITE: "https://als0184.au-csse-cpsc4970.com"
+  EBS_PORT: 5000
+
+compile:
+  image: maven:3.8-openjdk-11  
+  stage: compile
+  script:
+    - mvn compile -s ci_settings.xml
+
+test:
+  image: maven:3.8-openjdk-11  
+  stage: test
+  script:
+    - mvn test -s ci_settings.xml
+
+package:
+  image: maven:3.8-openjdk-11  
+  stage: package
+  script:
+    - mvn package -s ci_settings.xml
+
+sonarqube-check:
+  image: maven:3.6.3-jdk-11
+  stage: sast
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"
+    GIT_DEPTH: '0'
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - ".sonar/cache"
+  script:
+    - mvn verify sonar:sonar -Dsonar.projectKey=final-exam-b-als0184 -Dsonar.qualitygate.wait=true -s ci_settings.xml
+  allow_failure: true
+
+deploy:
+  image: maven:3.6-jdk-11  
+  stage: deploy
+  script:
+    - mvn deploy -s ci_settings.xml
+  only:
+    - main
+
+include:
+  - template: DAST.gitlab-ci.yml
+  - '/templates/Dependency-Scanning.gitlab-ci.yml'  
