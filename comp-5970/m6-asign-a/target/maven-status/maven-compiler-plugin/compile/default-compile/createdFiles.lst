@@ -1,0 +1,11 @@
+edu\auburn\cpsc4970\auth\AuthProviderInterface.class
+edu\auburn\cpsc4970\auth\AWSUtils.class
+edu\auburn\cpsc4970\auth\LoginApp.class
+edu\auburn\cpsc4970\database\DBUtils.class
+edu\auburn\cpsc4970\auth\AUInvalidFileException.class
+edu\auburn\cpsc4970\auth\AuthProviderFactory.class
+edu\auburn\cpsc4970\auth\UsernamePasswordAuthenticator.class
+edu\auburn\cpsc4970\auth\UserSession.class
+edu\auburn\cpsc4970\auth\AULoginException.class
+edu\auburn\cpsc4970\auth\UserPermissions.class
+edu\auburn\cpsc4970\auth\Utils.class

@@ -1,0 +1,4 @@
+edu\auburn\cpsc4970\database\DBUtilsTest.class
+edu\auburn\cpsc4970\auth\AWSUtilsTest.class
+edu\auburn\cpsc4970\auth\UsernamePasswordAuthenticatorTest.class
+edu\auburn\cpsc4970\auth\UtilsTest.class

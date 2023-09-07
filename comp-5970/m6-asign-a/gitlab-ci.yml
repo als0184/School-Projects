@@ -1,0 +1,41 @@
+stages:
+  - compile
+  - test
+  - build
+  - depend-scan
+  - deploy
+
+cache:
+  paths:
+    - .m2/repository
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+
+compile:
+  image: maven:3.8-openjdk-11  
+  stage: compile
+  script:
+    - mvn compile -s ci_settings.xml
+
+test:
+  image: maven:3.8-openjdk-11  
+  stage: test
+  script:
+    - mvn test -s ci_settings.xml
+
+build:
+  image: maven:3.8-openjdk-11  
+  stage: build
+  script:
+    - mvn package -s ci_settings.xml
+
+deploy:
+  image: maven:3.6-jdk-11  
+  stage: deploy
+  script:
+    - mvn deploy -s ci_settings.xml
+  only:
+    - main
+
+include: '/templates/Dependency-Scanning.gitlab-ci.yml'      
